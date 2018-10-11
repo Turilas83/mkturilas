@@ -1,0 +1,35 @@
+<ngb-carousel *ngIf="images" [showNavigationIndicators]="showNavigationIndicators">
+  <ng-template ngbSlide>
+    <img src="assets/images/welcome.png" style="width:1100px" alt="Welcome">
+    <div class="carousel-caption">
+      <h3>Welcome sivu</h3>
+      <p>Valitaan haluaako asentaa Linuxin vai käyttää sitä medialta. Kielen valinta.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img src="assets/images/Keyboard.png" style="width:1100px" alt="Näppäinasettelu">
+    <div class="carousel-caption">
+      <h3>Näppäinasettelu</h3>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img src="assets/images/updates.png" style="width:1100px" alt="Päivitys">
+    <div class="carousel-caption">
+      <h3>Päivitys sivu</h3>
+      <p>Valitaan mitä ohjelmia halutaan asentaa, sekä halutaanko päivitykset ladata asennuksen aikana ja halutaanko asentaa kolmannen osapuolen ohjelmistoja.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img src="assets/images/installation.png" style="width:1100px" alt="Asennus">
+    <div class="carousel-caption">
+      <h3>Asennus</h3>
+      <p>Tässä valitaan minkälainen asennus suoritetaan. Tyhjennetäänkö levy ja asennettaan “puhdas asennus”. Voidaan myös valita erilaisia partitiointi vaihtoehtoja, sekä partition suojaus.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img src="assets/images/lokaatio.png" style="width:1100px" alt="Lokaatio">
+    <div class="carousel-caption">
+      <h3>Lokaation valinta</h3>
+    </div>
+  </ng-template>
+</ngb-carousel>
